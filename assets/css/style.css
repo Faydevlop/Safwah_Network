@@ -6324,6 +6324,21 @@ article h4 {
     flex-wrap: wrap
 }
 
+/* Default logo size */
+.logo-light,
+.logo-dark {
+    height: 50px;
+}
+
+/* Media query for mobile phones (up to 767px) */
+@media only screen and (max-width: 767px) {
+    .logo-light,
+    .logo-dark {
+        height: 30px; /* Adjust the height as needed for mobile */
+    }
+}
+
+
 .custom-btn {
     display: inline-block;
     padding: 10px 20px;
